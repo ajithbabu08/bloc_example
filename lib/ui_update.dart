@@ -11,6 +11,9 @@ class MyUi_Changes extends StatefulWidget {
 class _MyUi_ChangesState extends State<MyUi_Changes> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      appBar: AppBar(title: Text('New'),),
+      body: Container(child: Text('data'),),
+    );
   }
 }
